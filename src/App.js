@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Dropdown from './component/Dropdown';
-import useTheme, { ThemeProvider } from './contexts/ThemeContext';
+import { ThemeProvider } from './contexts/ThemeContext';
 
 function App() {
   // const {themeMode, darkTheme, lightTheme} = useTheme()
